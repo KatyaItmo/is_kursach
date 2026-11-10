@@ -677,3 +677,5 @@ CREATE INDEX idx_character_world_world_id ON "character_world"("world_id");
 
 CREATE INDEX idx_users_object_id ON "users"("object_id");
 CREATE INDEX idx_worlds_object_id ON "worlds"("object_id");
+CREATE INDEX idx_characters_object_id   ON "characters"("object_id");   
+CREATE INDEX idx_publications_object_id ON "publications"("object_id");
